@@ -378,10 +378,11 @@ body{
      .work_item:hover .work_item_icon{
          transform: scale(1.2) translate(-50%,-50%);
      }
-     .work_item_icon:{
+     .work_item_icon:hover{
           color: brown;
           cursor: pointer;
      }
+    
      @media screen and (min-width:580px){
          .work_container{
              display: grid;
