@@ -269,6 +269,14 @@ body{
       justify-content: center;
       grid-row-gap: 1.2rem;
   }
+  .order_form-input{
+      display: flex;
+      background-color: white;
+      border-radius: 0.3rem;
+  }
+  .icon{
+      margin: 0.3rem;
+  }
   .order_form-feedback{
       border: 0.2rem solid chocolate;
       padding: 0.3;
@@ -302,7 +310,7 @@ body{
       border: none;
       outline: none;
   }
-  .input_name::placeholder,.input_lastname::placeholder,.input_submit.input_email::placeholder,.input_orders::placeholder,.input_contact::placeholder,.input_address::placeholder,{ 
+  .input_name::placeholder,.input_lastname::placeholder,.input_submit.input_email::placeholder,.input_orders::placeholder,.input_contact::placeholder,.input_address::placeholder{ 
       color: chocolate;
    }
    .input_submit{
